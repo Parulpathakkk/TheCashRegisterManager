@@ -1,5 +1,5 @@
 # TheCashRegisterManager
-demo
+
 This is simple cash registor calculator.Enter the bill amount,Cash given and we will provide you minimum number of notes to be returned
 
 Language used
