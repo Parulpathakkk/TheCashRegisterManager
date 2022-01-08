@@ -1,0 +1,103 @@
+* {
+    margin: auto;
+  }
+  :root {
+    --dark-blue: #0f2050;
+    --off-white: #cdd1dd;
+    --off-blue: #8f88b4;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 1rem;
+    background-color: var(--dark-blue);
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  #heading {
+    text-align: center;
+    margin: 0.5rem;
+    color: rgb(170, 162, 162);
+  }
+  
+  .header {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    color: white;
+  }
+  
+  p {
+    color: var(--off-white);
+    font-size: 1.5rem;
+  }
+  
+  .labels {
+    color: var(--off-blue);
+    font-weight: bolder;
+    font-size: 1.7rem;
+    text-align: center;
+    display: block;
+    padding: 0.5rem 1rem 0.5rem;
+  }
+  
+  .buttons {
+    margin: 1rem;
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: var(--off-blue);
+    color: var(--dark-blue);
+    font-size: 1rem;
+  }
+  
+  input {
+    padding: 0.5rem 4rem;
+  
+    display: block;
+    font-size: large;
+  }
+  
+  #output {
+    margin: 0.5rem 0;
+  }
+  
+  #output table,
+  th,
+  td {
+    padding: 0.2rem;
+    color: var(--dark-green);
+    background-color: var(--off-blue);
+    border: 2px solid var(--dark-blue);
+    border-collapse: collapse;
+  }
+  
+  .notes {
+    background-color: var(--off-white);
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    font-weight: bolder;
+    font-size: large;
+    margin: auto;
+  }
+  
+  #caption {
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem 0.5rem;
+  
+    color: white;
+  }
+  

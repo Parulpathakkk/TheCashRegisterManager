@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register Manager</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id="heading"><h1> <i> Parul</i></h1></div>
+       <div class="header"> <h1>Cash Register Manager</h1></div>
+        <p>Enter the bill amount and cash given by the customer and know minimum
+            number of notes to return.</p>
+<section>
+        <label class="labels" for="bill-amount">Bill amount:</label>
+        <input  type="number" id="bill-amount">
+        <button class="buttons" id="nextbtn">Next</button>
+    </section>        
+    <section id="cash-given-section">
+        <label class="labels" for="cash-given">Cash Given:</label>
+        <input  type="number" id="cash-given">
+
+        <button class="buttons" id="btn">Check</button>
+    </section>
+        <p id="error-message"></p>
+        <section class="notes-section" id="output">
+        <table class="change-table">
+            <caption id="caption"> Return Change</caption>
+            <tr>
+                <th>No. of Notes</th>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </section>
+  <button class="buttons" id="refresh">Refresh</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
